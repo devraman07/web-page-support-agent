@@ -247,7 +247,7 @@ ${question}
     await initCollection();
 
     await ingest("https://raman-dev007.vercel.app/");
-    await chat("do you have any previous work done?");
+    await chat("how can i contact you?");
   } finally {
     if (browser) {
       await browser.close();
